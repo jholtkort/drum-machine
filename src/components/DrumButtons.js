@@ -26,15 +26,13 @@ class DrumButtons extends Component {
   render() {
     return (
       <button
-        variant="secondary"
-        size="lg"
-        className="drum-pad col-3 m-3"
+        className="drum-pad col-3 m-1 m-sm-3 btn btn-warning"
         id={this.props.id}
         onClick={this.handleClick}
         onKeyPress={this.handleKeyPress}
         style={{ borderRadius: "30px" }}
       >
-        <h1>{this.props.letter}</h1>
+        <h2>{this.props.letter}</h2>
         <audio
           ref={ref => (this.audio = ref)}
           className="clip"

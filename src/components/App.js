@@ -28,8 +28,7 @@ class App extends Component {
           </h1>
           <h3 className="text-center">
             Each button will play a different sound. Either press with your
-            keyboard or click with your mouse the corresponding keys to use the
-            drum machine.
+            keyboard or press the corresponding keys to use the drum machine.
           </h3>
 
           <div className="row justify-content-center">
