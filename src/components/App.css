@@ -1,0 +1,12 @@
+body {
+  background: lightblue;
+  height: 100vh;
+}
+
+.drum-machine {
+  margin-top: 5vh;
+}
+
+img {
+  height: 20vh;
+}
