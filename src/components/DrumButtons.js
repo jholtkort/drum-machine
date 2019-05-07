@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-// import Button from "react-bootstrap/Button";
 
 class DrumButtons extends Component {
   componentDidMount() {
@@ -15,7 +14,6 @@ class DrumButtons extends Component {
       this.audio.play();
       this.audio.currentTime = 0;
       this.props.changeDescription(this.props.id);
-      console.log("I have been pressed");
     }
   };
 
