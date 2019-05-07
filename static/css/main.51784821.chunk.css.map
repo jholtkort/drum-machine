@@ -1,0 +1,1 @@
+{"version":3,"sources":["App.css"],"names":[],"mappings":"AAAA,KACE,kBAAqB,CACrB,YACF,CAEA,cACE,cACF,CAEA,IACE,WACF","file":"main.51784821.chunk.css","sourcesContent":["body {\n  background: lightblue;\n  height: 100vh;\n}\n\n.drum-machine {\n  margin-top: 5vh;\n}\n\nimg {\n  height: 20vh;\n}\n"]}
